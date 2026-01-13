@@ -83,7 +83,7 @@ const ProductSection =() =>{
                                style: "currency",
                                currency: "IDR",
                                maximumSignificantDigits:3,
-                           }).format(product.price)}</div>
+                           }).format(Number(product.price))}</div>
                        </div>
                    </Link>
                ))
